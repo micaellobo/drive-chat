@@ -1,0 +1,9 @@
+[
+    {
+        "message": "Hello USER B",
+        "date": "Jan 27, 2022, 11:10:54 AM",
+        "from": "USER A",
+        "to": "USER B",
+        "type": "USER_TO_USER"
+    }
+]

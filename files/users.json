@@ -1,0 +1,97 @@
+[
+  {
+    "name": "UserA",
+    "username": "UserA",
+    "password": "1234",
+    "radius": 5,
+    "geoCordi": {
+      "lat": 41.36470125047803,
+      "lon": -8.199263539504017
+    },
+    "mainGroup": "UserA_Radious",
+    "groupsChat": [
+      "Place A"
+    ],
+    "groupsAlert": [
+      "UserA_Radious",
+      "UserB_Radius",
+      "UserC_Radius",
+      "UserD_Radius"
+    ],
+    "friendRequestsReceived": [],
+    "friendRequestsSent": [],
+    "friends": []
+  },
+  {
+    "name": "UserB",
+    "username": "UserB",
+    "password": "12345",
+    "radius": 3,
+    "geoCordi": {
+      "lat": 41.36470125047803,
+      "lon": -8.199263539504017
+    },
+    "mainGroup": "UserB_Radius",
+    "groupsChat": [
+      "Place B"
+    ],
+    "groupsAlert": [
+      "UserB_Radius",
+      "UserD_Radius",
+      "UserA_Radious"
+    ],
+    "friendRequestsReceived": [],
+    "friendRequestsSent": [],
+    "friends": [
+      "UserC"
+    ]
+  },
+  {
+    "name": "UserC",
+    "username": "UserC",
+    "password": "1234",
+    "radius": 3,
+    "geoCordi": {
+      "lat": 41.39380233261764,
+      "lon": -8.242985741122567
+    },
+    "mainGroup": "UserC_Radius",
+    "groupsChat": [
+      "Place C",
+      "Place B"
+    ],
+    "groupsAlert": [
+      "UserC_Radius",
+      "UserD_Radius"
+    ],
+    "friendRequestsReceived": [],
+    "friendRequestsSent": [],
+    "friends": [
+      "UserB"
+    ]
+  },
+  {
+    "name": "UserD",
+    "username": "UserD",
+    "password": "1234",
+    "radius": 3,
+    "geoCordi": {
+      "lat": 41.38591177740833,
+      "lon": -8.217651727944714
+    },
+    "mainGroup": "UserD_Radius",
+    "groupsChat": [
+      "Place A",
+      "Place B"
+    ],
+    "groupsAlert": [
+      "UserD_Radius",
+      "UserB_Radius",
+      "UserC_Radius",
+      "UserA_Radious"
+    ],
+    "friendRequestsReceived": [],
+    "friendRequestsSent": [],
+    "friends": []
+  }
+]

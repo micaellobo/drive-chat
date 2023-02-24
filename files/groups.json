@@ -1,0 +1,37 @@
+[
+  {
+    "groupType": "ALERTS",
+    "name": "UserB_Radius",
+    "ip": "224.0.0.3"
+  },
+  {
+    "groupType": "CHAT",
+    "name": "Place B",
+    "ip": "224.0.0.4"
+  },
+  {
+    "groupType": "ALERTS",
+    "name": "UserD_Radius",
+    "ip": "224.0.0.5"
+  },
+  {
+    "groupType": "CHAT",
+    "name": "Place A",
+    "ip": "224.0.0.6"
+  },
+  {
+    "groupType": "ALERTS",
+    "name": "UserC_Radius",
+    "ip": "224.0.0.7"
+  },
+  {
+    "groupType": "CHAT",
+    "name": "Place C",
+    "ip": "224.0.0.8"
+  },
+  {
+    "groupType": "ALERTS",
+    "name": "UserA_Radious",
+    "ip": "224.0.0.9"
+  }
+]
