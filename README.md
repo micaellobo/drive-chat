@@ -1,33 +1,12 @@
 # Drive-Chat
 
-Drive-Chat is a Java application that uses sockets for real-time messaging between users. It includes features for
-sending messages, group chats, and friend requests. Enabling users to send and receive traffic or vehicle cluster alerts
-in a given area. It also allows the creation of a "friendship" system for sending messages with traffic warnings,
-weather conditions, well as the exchange of messages between users, among others.
-
-The application consists of a server that manages communication between users and a central node. The server registers
-users, logs in, determines the density of drivers in an area, and notifies other drivers of the possibility of transit,
-in addition to storing interactions between users who consider themselves friends. The central node is responsible for
-periodically reporting the number of incidents detected, as well as alerts defined by the protection civil.
+Drive-Chat is a Java app for real-time messaging using sockets. Users can send messages, join group chats, and send friend requests. It also allows for traffic and weather alerts and message exchanges between friends. The app has a server for managing communication and a central node for reporting incidents and alerts.
 
 ## Architecture / Implementation
 
-DriveChat uses a client-server architecture, with the server handling message routing between clients. The application
-uses sockets to establish and maintain connections between clients and the server, allowing for real-time messaging.
+DriveChat is a Java client-server application for real-time messaging between drivers. The server manages message routing and handles multiple connections. TCP and UDP sockets are used for communication, with TCP for important information and UDP for alerts. JSON and Gson are used for message transmission and serialization. 
 
-The server is capable of handling multiple connections from drivers simultaneously and stores all relevant information
-persistently. Periodic alert notifications are sent via multicast (when targeting a group of drivers) and broadcast (
-when the event is for the entire population).
-
-The application uses both TCP and UDP sockets for communication. TCP (Transmission Control Protocol) is a reliable,
-connection-oriented protocol that ensures that all data is delivered in the correct order and without loss. This makes
-it ideal for sending important information such as user authentication and messages. UDP (User Datagram Protocol), on
-the other hand, is a connectionless protocol that is faster and more efficient for sending small amounts of data, such
-as alerts and notifications.
-
-The app uses JSON strings for message transmission and Gson for the serialization and deserialization of the messages.
-
-For the client Java Swing was used for the user interface.
+The user interface is built with Java Swing.
 
 ## Functionalities
 
