@@ -6,7 +6,7 @@ Drive-Chat is a Java app for real-time messaging using sockets. Users can send m
 
 DriveChat is a Java client-server application for real-time messaging between drivers. The server manages message routing and handles multiple connections. TCP and UDP sockets are used for communication, with TCP for important information and UDP for alerts. JSON and Gson are used for message transmission and serialization. 
 
-The user interface is built with Java Swing.
+The user interface is built with Java Swing and currently is not fully implemented (arround 85%).
 
 ## Functionalities
 
